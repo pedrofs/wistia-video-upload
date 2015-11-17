@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "bower": "1.4.1",
+  },
+  "scripts": {
+    "prestart": "bower install",
+    "start": "npm install",
+    "poststart": "gulp"
+  }
+}
